@@ -1,15 +1,19 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import Head from 'next/head';
+import Header from '../components/Header';
+import MainContent from '../components/MainContent';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <div>
-      <head>
+      <Head>
         <title>Giovanni Sferrazza</title>
-      </head>
-      <main>
-        <h1>Hi, I am Giovanni Sferrazza and I am a software engineer</h1>
-      </main>
+      </Head>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
