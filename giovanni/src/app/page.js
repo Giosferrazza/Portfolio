@@ -1,9 +1,9 @@
 "use client";
 
 import Head from 'next/head';
-import Header from '../components/Header';
-import MainContent from '../components/MainContent';
-import Footer from '../components/Footer';
+import Header from '../components/Header'
+import './index.css';
+
 
 export default function Home() {
   return (
@@ -12,8 +12,6 @@ export default function Home() {
         <title>Giovanni Sferrazza</title>
       </Head>
       <Header />
-      <MainContent />
-      <Footer />
     </div>
   );
 }
