@@ -3,12 +3,6 @@
 import React, { useState } from 'react';
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <header className="text-white p-5">
       <div className="flex items-center justify-between">

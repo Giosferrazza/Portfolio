@@ -1,22 +1,19 @@
 "use client";
 
 import Head from 'next/head';
-import Header from '../components/Header'
-import Main from '../components/Main'
+import Header from '../components/Header';
+import Main from '../components/Main';
 import Footer from '../components/Footer';
-
-
 import './index.css';
-
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>Giovanni Sferrazza</title>
       </Head>
       <Header />
-      <Main className="flex-grow" />
+      <Main />
       <Footer />
     </div>
   );
