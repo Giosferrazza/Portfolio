@@ -14,7 +14,7 @@ function Main() {
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-4 mt-11">Hey, I'm Giovanni.</h2>
           <p className="text-lg mb-4">
-            A passionate developer with experience in building web applications.
+            A passionate developer with experience in building various applications.
           </p>
           <div className="flex flex-col items-center md:items-start space-y-4">
             <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-500 hover:text-blue-700">
