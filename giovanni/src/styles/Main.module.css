@@ -15,3 +15,11 @@
   animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
   max-width: 220px;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
