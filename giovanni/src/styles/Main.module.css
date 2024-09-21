@@ -23,3 +23,12 @@
   flex-direction: column;
   text-align: center;
 }
+
+.rectangle {
+  width: 250px; /* Adjust the width as needed */
+  height: 320px; /* Adjust the height as needed */
+
+  border: 2px solid #fff; /* Adjust the border color as needed */
+  transform: translate(95%, 30%);
+  z-index: -1;
+}

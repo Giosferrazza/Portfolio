@@ -20,6 +20,7 @@ export default function MainContent() {
     <main>
       <div className={styles['centered-container']}>
         <section className="flex flex-col md:flex-row items-center mt-20 ">
+        <div className={styles.rectangle}></div>
           <img
             src="/me.jpg"
             alt="Profile"
@@ -32,7 +33,7 @@ export default function MainContent() {
             <p className="text-lg mb-4">
               A passionate developer with experience in building various applications.
             </p>
-            <div className="flex flex-col items-center md:items-start space-y-4 text-white">
+            <div className="flex flex-col items-center md:items-start space-y-4 text-gray-500 mr-2">
               <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-500 hover:text-blue-500 ">
                 <FaLinkedin size={30} className="text-blue-500 mr-2"/>Linkedin
               </a>
