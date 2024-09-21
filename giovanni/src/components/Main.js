@@ -20,12 +20,11 @@ export default function MainContent() {
     <main>
       <div className={styles['centered-container']}>
         <section className="flex flex-col md:flex-row items-center mt-20 ">
-        <div className={styles.rectangle}></div>
-          <img
-            src="/me.jpg"
-            alt="Profile"
-            className="w-75 h-80 rounded-lg mx-auto mb-4 md:mb-0 md:mr-8 mt-40"
-          />
+            <img
+              src="/me.jpg"
+              alt="Profile"
+              className="w-75 h-80 rounded-lg mx-auto mb-4 md:mb-0 md:mr-8 mt-40"
+            />
           <div className="text-center md:text-left">
             <h2 className={`text-2xl font-bold mb-4 mt-11 ${showText ? styles.typing : ''}`}>
               Hey, I'm Giovanni.
