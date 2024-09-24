@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
 import '../styles/globals.css';
-import '../styles/project.module.css'
+import '../styles/project.module.css';
 
 import React from 'react';
 
