@@ -26,7 +26,7 @@ export default function MainContent() {
               className="w-75 h-80 rounded-lg mx-auto mb-4 md:mb-0 md:mr-8 mt-40"
             />
           <div className="text-center md:text-left">
-            <h2 className={`text-2xl font-bold mb-4 mt-11 ${showText ? styles.typing : ''}`}>
+            <h2 className={`text-2xl font-bold mb-4 mt-14 ${showText ? styles.typing : ''}`}>
               Hey, I'm Giovanni.
             </h2>
             <p className="text-lg mb-4">
