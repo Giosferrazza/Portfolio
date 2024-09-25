@@ -13,12 +13,15 @@ function Header() {
 
         <nav className="flex space-x-3">
 
-        <Link href="/projects" className="hover:underline font-mono text-2xl">
+          <Link href="/projects" className="hover:underline font-mono text-2xl">
             Projects
           </Link>
 
-          <a href="/contact" className="hover:underline font-mono text-2xl">Contact</a>
-          <a href="/Blog" className="hover:underline font-mono text-2xl">Blog</a>
+            <a href="/contact" className="hover:underline font-mono text-2xl">Contact</a>
+
+          <Link href="/blog" className="hover:underline font-mono text-2xl">
+            Blog
+          </Link>        
         </nav>
       </div>
     </header>
