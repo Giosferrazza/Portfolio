@@ -12,6 +12,9 @@ function Projects() {
     <div className="flex flex-col min-h-screen bg-black text-white">
       <Head>
         <title>Giovanni Sferrazza</title>
+        <h1>
+          I am cool!!
+        </h1>
       </Head>
       <Header />
       <Footer />
