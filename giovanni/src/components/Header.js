@@ -8,7 +8,7 @@ function Header() {
     <header className="text-white p-5">
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-mono ">
-          <a href="/Home" className="hover:underline">Giovanni Sferrazza</a>
+          <a href="/" className="hover:underline">Giovanni Sferrazza</a>
         </h1>
 
         <nav className="flex space-x-3">

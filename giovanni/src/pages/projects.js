@@ -22,7 +22,7 @@ function Projects() {
     },
     {
       title: 'Blackjack Game',
-      description: 'This is a description of project 2.',
+      description: 'I made a blackjack project for my cs final',
       imageUrl: '/images/bj.jpg',
     }
   ];
