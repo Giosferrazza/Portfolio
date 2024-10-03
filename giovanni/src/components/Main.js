@@ -21,7 +21,7 @@ export default function MainContent() {
       <div className={styles['centered-container']}>
         <section className="flex flex-col md:flex-row items-center mt-20 ">
             <img
-              src="/me.jpg"
+              src="/images/me.jpg"
               alt="Profile"
               className="w-75 h-80 rounded-lg mx-auto mb-4 md:mb-0 md:mr-8 mt-40"
             />
